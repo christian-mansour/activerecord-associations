@@ -12,6 +12,10 @@ ActiveRecord::Base.establish_connection(
   host:     'localhost'
 )
 
+# Movie.create(title: "iRobot",rating: "92")
+# Theater.create(name: "NCG Cinema")
+
+
 binding.pry
 
 puts "Goodbye!"
